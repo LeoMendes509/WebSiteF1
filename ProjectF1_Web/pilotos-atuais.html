@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="titulo_pagina_pilotos_atuais">Pilotos Atuais da Fórmula 1</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/formula-1-logo-png_seeklogo-330361.png" />
+</head>
+<body>
+  <header>
+    <nav class="navbar" aria-label="Navegação principal">
+      <img src="img/icons8-formula-1-250.png" alt="Logo da F1" class="logo" />
+      <ul>
+        <li><a href="index.html" data-i18n="menu_inicio">Início</a></li>
+        <li><a href="pilotos.html" data-i18n="menu_pilotos_lendarios">Pilotos Lendários</a></li>
+        <li><a href="corridas.html" data-i18n="menu_corridas_iconicas">Corridas Icônicas (Anos 80/90)</a></li>
+        <li><a href="pilotos-atuais.html" class="active" data-i18n="menu_pilotos_atuais">Pilotos Atuais</a></li>
+        <li><a href="corridas-atuais.html" data-i18n="menu_corridas_atuais">Melhores Corridas Recentes</a></li>
+        <li><a href="liberty.html" data-i18n="menu_liberty">Grupo Liberty Media</a></li>
+      </ul>
+      <div class="lang-switcher" role="group" aria-label="Troca de idioma">
+        <button type="button" aria-label="Português" onclick="setLanguage('pt-BR')">🇧🇷</button>
+        <button type="button" aria-label="English" onclick="setLanguage('en-US')">🇺🇸</button>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <h1 data-i18n="titulo_pilotos_atuais">Pilotos Atuais de Fórmula 1</h1>
+    <div class="frase-destaque" data-i18n="frase_destaque_pilotos_atuais">Conheça os 8 melhores pilotos da atualidade que dominam as pistas na era atual da F1.</div>
+    <div class="cards-container">
+      <div class="card">
+        <img src="img/imgverstappen.jpg" alt="Max Verstappen" />
+        <h3 data-i18n="verstappen_titulo">Max Verstappen</h3>
+        <p data-i18n="verstappen_info">🇳🇱 Holanda — Campeão Mundial 2021, 2022, 2023</p>
+        <p data-i18n="verstappen_descricao">Estilo agressivo, velocidade e consistência incomparáveis.</p>
+      </div>
+      <div class="card">
+        <img src="img/lewisHamiltonFerrari.webp" alt="Lewis Hamilton" />
+        <h3 data-i18n="hamilton_atual_titulo">Lewis Hamilton</h3>
+        <p data-i18n="hamilton_atual_info">🇬🇧 Reino Unido — 7 vezes Campeão Mundial</p>
+        <p data-i18n="hamilton_atual_descricao">Recordista e referência em performance e carisma.</p>
+      </div>
+      <div class="card">
+        <img src="img/charles-leclerc-ferrari-758x528-1-aspect-ratio-512-320-1.webp" alt="Charles Leclerc" />
+        <h3 data-i18n="leclerc_titulo">Charles Leclerc</h3>
+        <p data-i18n="leclerc_info">🇲🇨 Mônaco — Talento jovem com habilidade para grandes corridas.</p>
+        <p data-i18n="leclerc_descricao">Brilhante e destemido, líder da Ferrari.</p>
+      </div>
+      <div class="card">
+        <img src="img/George-Russell-Mercedes-Formula-1-F1-aspect-ratio-512-320-1.webp" alt="George Russell" />
+        <h3 data-i18n="russell_titulo">George Russell</h3>
+        <p data-i18n="russell_info">🇬🇧 Reino Unido — Piloto promissor com grande técnica.</p>
+        <p data-i18n="russell_descricao">Consistente, rápido e com futuro brilhante na Mercedes.</p>
+      </div>
+      <div class="card">
+        <img src="img/sainz.webp" alt="Carlos Sainz" />
+        <h3 data-i18n="sainz_titulo">Carlos Sainz</h3>
+        <p data-i18n="sainz_info">🇪🇸 Espanha — Piloto forte da Ferrari, combativo nas pistas.</p>
+        <p data-i18n="sainz_descricao">Equilíbrio entre agressividade e inteligência.</p>
+      </div>
+      <div class="card">
+        <img src="img/perez.jpg" alt="Sergio Pérez" />
+        <h3 data-i18n="perez_titulo">Sergio Pérez</h3>
+        <p data-i18n="perez_info">🇲🇽 México — Experiência e habilidade para maximizar pontos.</p>
+        <p data-i18n="perez_descricao">Vital para a Red Bull nas estratégias de equipe.</p>
+      </div>
+      <div class="card">
+        <img src="img/norris.jpeg" alt="Lando Norris" />
+        <h3 data-i18n="norris_titulo">Lando Norris</h3>
+        <p data-i18n="norris_info">🇬🇧 Reino Unido — Jovem talento da McLaren.</p>
+        <p data-i18n="norris_descricao">Estilo dinâmico e muito carismático.</p>
+      </div>
+      <div class="card">
+        <img src="img/Alonso.jpeg" alt="Fernando Alonso" />
+        <h3 data-i18n="alonso_titulo">Fernando Alonso</h3>
+        <p data-i18n="alonso_info">🇪🇸 Espanha — Duas vezes campeão mundial, veterano da F1.</p>
+        <p data-i18n="alonso_descricao">Experiência e habilidade que desafiam a idade.</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>
+        <span data-i18n="rodape_credito">Site feito por</span> <span class="autor-destaque">Leonardo Mendes</span> · <span data-i18n="rodape_dados">Dados históricos da Fórmula 1</span> ·
+        <a href="https://www.formula1.com" target="_blank" rel="noopener noreferrer" data-i18n="rodape_oficial">Site oficial</a>
+      </p>
+      <p class="creditos">
+        <span data-i18n="rodape_desenvolvido">Desenvolvido por</span> <span class="autor-destaque">Leonardo Mendes</span> ·
+        <a href="https://www.linkedin.com/in/leonardo-mendes-developer" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.5 11.268h-3v-5.604c0-1.337-.025-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.838-1.563 3.036 0 3.6 2 3.6 4.59v5.606z"/></svg>
+          <span data-i18n="rodape_linkedin">LinkedIn</span>
+        </a>
+      </p>
+    </div>
+  </footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

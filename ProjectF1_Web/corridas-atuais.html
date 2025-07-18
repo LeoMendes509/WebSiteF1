@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="titulo_pagina_corridas_atuais">Melhores Corridas Recentes (2020-2023)</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/formula-1-logo-png_seeklogo-330361.png" />
+</head>
+<body>
+  <header>
+    <nav class="navbar" aria-label="Navegação principal">
+      <img src="img/icons8-formula-1-250.png" alt="Logo da F1" class="logo" />
+      <ul>
+        <li><a href="index.html" data-i18n="menu_inicio">Início</a></li>
+        <li><a href="pilotos.html" data-i18n="menu_pilotos_lendarios">Pilotos Lendários</a></li>
+        <li><a href="corridas.html" data-i18n="menu_corridas_iconicas">Corridas Icônicas (Anos 80/90)</a></li>
+        <li><a href="pilotos-atuais.html" data-i18n="menu_pilotos_atuais">Pilotos Atuais</a></li>
+        <li><a href="corridas-atuais.html" class="active" data-i18n="menu_corridas_atuais">Melhores Corridas Recentes</a></li>
+        <li><a href="liberty.html" data-i18n="menu_liberty">Grupo Liberty Media</a></li>
+      </ul>
+      <div class="lang-switcher" role="group" aria-label="Troca de idioma">
+        <button type="button" aria-label="Português" onclick="setLanguage('pt-BR')">🇧🇷</button>
+        <button type="button" aria-label="English" onclick="setLanguage('en-US')">🇺🇸</button>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <h1 data-i18n="titulo_corridas_atuais">Melhores Corridas Recentes da Fórmula 1 (2020-2023)</h1>
+    <p data-i18n="subtitulo_corridas_atuais">As 5 corridas mais emocionantes e marcantes da F1 nos últimos anos.</p>
+    <div class="cards-container">
+      <div class="card" onclick="window.open('https://www.youtube.com/watch?v=TB5yhZdF8SI','_blank')" tabindex="0" role="button" aria-label="Assistir GP Itália 2020 no YouTube">
+        <img src="img/Gpitalia.jpe" alt="GP Itália 2020 (Monza)" />
+        <h3 data-i18n="italia_2020_titulo">GP Itália 2020 (Monza)</h3>
+        <p data-i18n="italia_2020_descricao">Vitória histórica de Pierre Gasly, quebra das equipes grandes e muita emoção.</p>
+      </div>
+      <div class="card" onclick="window.open('https://www.youtube.com/watch?v=bg3v8VKEtBc','_blank')" tabindex="0" role="button" aria-label="Assistir GP Turquia 2020 no YouTube">
+        <img src="img/turkiaGP.webp" alt="GP Turquia 2020 (Istambul)" />
+        <h3 data-i18n="turquia_2020_titulo">GP Turquia 2020 (Istambul)</h3>
+        <p data-i18n="turquia_2020_descricao">Chuva intensa, corrida difícil e título garantido por Lewis Hamilton.</p>
+      </div>
+      <div class="card" onclick="window.open('https://www.youtube.com/watch?v=FRt8hXFb0Vg','_blank')" tabindex="0" role="button" aria-label="Assistir GP Inglaterra 2021 no YouTube">
+        <img src="img/Silverstone21.avif" alt="GP Inglaterra 2021 (Silverstone)" />
+        <h3 data-i18n="inglaterra_2021_titulo">GP Inglaterra 2021 (Silverstone)</h3>
+        <p data-i18n="inglaterra_2021_descricao">Duelo feroz entre Hamilton e Verstappen, com colisão e muita polêmica.</p>
+      </div>
+      <div class="card" onclick="window.open('https://www.youtube.com/watch?v=zMD3L1lD7LQ','_blank')" tabindex="0" role="button" aria-label="Assistir GP Bélgica 2021 no YouTube">
+        <img src="img/Belgica21.webp" alt="GP Bélgica 2021 (Spa-Francorchamps)" />
+        <h3 data-i18n="belgica_2021_titulo">GP Bélgica 2021 (Spa-Francorchamps)</h3>
+        <p data-i18n="belgica_2021_descricao">Corrida curta por chuva forte, imagens impactantes e decisões controversas.</p>
+      </div>
+      <div class="card" onclick="window.open('https://www.youtube.com/watch?v=8fgOi-dcl2s','_blank')" tabindex="0" role="button" aria-label="Assistir GP Abu Dhabi 2021 no YouTube">
+        <img src="img/adudhbi.webp" alt="GP Abu Dhabi 2021 (Yas Marina)" />
+        <h3 data-i18n="abu_dhabi_2021_titulo">GP Abu Dhabi 2021 (Yas Marina)</h3>
+        <p data-i18n="abu_dhabi_2021_descricao">Decisão do título mundial com relargada na última volta e muita controvérsia.</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>
+        <span data-i18n="rodape_credito">Site feito por</span> <span class="autor-destaque">Leonardo Mendes</span> · <span data-i18n="rodape_dados">Dados históricos da Fórmula 1</span> ·
+        <a href="https://www.formula1.com" target="_blank" rel="noopener noreferrer" data-i18n="rodape_oficial">Site oficial</a>
+      </p>
+      <p class="creditos">
+        <span data-i18n="rodape_desenvolvido">Desenvolvido por</span> <span class="autor-destaque">Leonardo Mendes</span> ·
+        <a href="https://www.linkedin.com/in/leonardo-mendes-developer" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.5 11.268h-3v-5.604c0-1.337-.025-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.838-1.563 3.036 0 3.6 2 3.6 4.59v5.606z"/></svg>
+          <span data-i18n="rodape_linkedin">LinkedIn</span>
+        </a>
+      </p>
+    </div>
+  </footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
