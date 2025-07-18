@@ -1,4 +1,5 @@
-# 🏎️ Formula 1 Legends - Responsive & Bilingual Landing Page 🌍
+# 🏎️ Formula 1 Legends - Responsive & Bilingual Landing Page 🌍  
+🔗 [Live Demo](https://web-site-f1.vercel.app)
 
 ## Project Overview
 
@@ -25,12 +26,14 @@ This project is a clean, modern, and fully **responsive landing page** dedicated
 
 This landing page highlights my ability to architect and deliver a polished, production-ready front-end solution using pure web technologies. It demonstrates:
 
-- 💻 Proficiency in modern HTML, CSS, and JavaScript
-- 🌟 Understanding of accessibility and responsive design
-- 🔄 Capability to implement i18n without heavy dependencies
-- 🧼 Clean code principles and project organization
+- 💻 Proficiency in modern HTML, CSS, and JavaScript  
+- 🌟 Understanding of accessibility and responsive design  
+- 🔄 Capability to implement i18n without heavy dependencies  
+- 🧼 Clean code principles and project organization  
 
-Feel free to explore and review the code to see best practices in action.
+## 🔗 Live Demo
+
+👉 [Click here to visit the live site](https://web-site-f1.vercel.app)
 
 ---
 
